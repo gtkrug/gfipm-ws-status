@@ -2,7 +2,9 @@ gfipm-ws-status
 ===============
 
   This is a GFIPM Web Services Status System.  It is a java tool that uses Metro for 
-WS-* support and is built with maven. 
+WS-* support and is built with maven. It requires the trust fabric library available
+as part of the GFIPM Web Services toolkit.  As such that project needs to be 
+built to add the trust fabric library to your local maven repository.
 
   There are three main projects:
    - wscontract - This is the Web Services Contract that represents the web service.  
